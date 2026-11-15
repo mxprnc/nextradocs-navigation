@@ -39,7 +39,7 @@ jobs:
       - name: Build Static Site
         run: npm run build
         env:
-          PAGES_BASE_PATH: /<repository-name>
+          PAGES_BASE_PATH: /nextradocs-navigation
 
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v3
