@@ -6,21 +6,21 @@ import 'nextra-theme-docs/style.css'
 
 export const metadata = {
     title: {
-        default: 'NextraDocs Kubernetes',
-        template: '%s | NextraDocs Kubernetes'
+        default: 'NextraDocs Navigation',
+        template: '%s | NextraDocs Navigation'
     },
-    description: 'Kubernetes Technical Documentation'
+    description: 'Navigation Technical Documentation'
 }
 
 const navbar = (
     <Navbar
-        logo={<b>NextraDocs Kubernetes</b>}
+        logo={<b>NextraDocs Navigation</b>}
     />
 )
 
 const footer = (
     <Footer>
-        MIT {new Date().getFullYear()} © NextraDocs Kubernetes.
+        MIT {new Date().getFullYear()} © NextraDocs Navigation.
     </Footer>
 )
 
